@@ -74,6 +74,7 @@ function getScreenNameFromState(state) {
  */
 function getActiveState() {
     // We use our RootState as the dispatch's state is relative to the active navigator and might not contain our active screen.
+    // test comment
     return navigationRef.current.getRootState();
 }
 
